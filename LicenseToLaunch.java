@@ -8,6 +8,7 @@ public class LicenseToLaunch {
         Scanner input = new Scanner(System.in);
         int validDate = input.nextInt();
         ArrayList<Integer> numTrash = new ArrayList<>();
+        input.close();
 
         for (int i = 0; i < validDate; i++) {
             numTrash.add(input.nextInt());
